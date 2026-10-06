@@ -69,16 +69,6 @@ color groups you've flagged as rainbow. Nothing is stored about *which items* ar
 only which *tag colors* are - so the effect automatically follows the group as you tag or
 untag items with that color.
 
-## Installing
-
-This isn't published on the official Plugin Hub. To run it yourself:
-
-```
-git clone <this repo>
-cd rainbow-inventory-tags
-./gradlew run
-```
-
 That launches a development copy of the RuneLite client with the plugin already loaded (you'll
 need a Jagex account linked for the dev client - see
 [Using Jagex Accounts](https://github.com/runelite/runelite/wiki/Using-Jagex-Accounts)).
