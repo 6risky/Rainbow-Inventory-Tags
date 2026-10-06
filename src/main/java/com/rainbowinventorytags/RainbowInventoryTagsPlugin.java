@@ -56,10 +56,8 @@ import net.runelite.client.events.ConfigChanged;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.game.chatbox.ChatboxPanelManager;
 import net.runelite.client.plugins.Plugin;
-import net.runelite.client.plugins.PluginDependency;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.plugins.inventorytags.InventoryTagsConfig;
-import net.runelite.client.plugins.inventorytags.InventoryTagsPlugin;
 import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.ColorUtil;
 
@@ -85,7 +83,6 @@ import net.runelite.client.util.ColorUtil;
 	description = "Pick which Inventory Tags color groups cycle through a rainbow, leaving your other tag colors alone",
 	tags = {"inventory", "tag", "tags", "rainbow", "color", "highlight", "group"}
 )
-@PluginDependency(InventoryTagsPlugin.class)
 public class RainbowInventoryTagsPlugin extends Plugin
 {
 	static final String GROUP = "rainbowinventorytags";
