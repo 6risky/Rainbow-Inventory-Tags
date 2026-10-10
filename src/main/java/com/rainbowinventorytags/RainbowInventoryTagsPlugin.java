@@ -136,7 +136,7 @@ public class RainbowInventoryTagsPlugin extends Plugin
 	@Inject
 	private Client client;
 
-	
+	@Inject
 	private RainbowInventoryTagsConfig config;
 
 	@Inject
@@ -151,7 +151,7 @@ public class RainbowInventoryTagsPlugin extends Plugin
 	@Inject
 	private ItemManager itemManager;
 
-	@Inject
+	
 	private InventoryTagsConfig inventoryTagsConfig;
 
 	@Inject
