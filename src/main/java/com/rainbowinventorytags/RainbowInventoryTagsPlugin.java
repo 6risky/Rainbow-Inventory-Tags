@@ -136,7 +136,7 @@ public class RainbowInventoryTagsPlugin extends Plugin
 	@Inject
 	private Client client;
 
-	@Inject
+	
 	private RainbowInventoryTagsConfig config;
 
 	@Inject
@@ -163,6 +163,7 @@ public class RainbowInventoryTagsPlugin extends Plugin
 	@Override
 	protected void startUp()
 	{
+		inventoryTagsConfig = configManager.getConfig(InventoryTagsConfig.class);
 		if (overlay == null)
 		{
 			overlay = new RainbowInventoryTagsOverlay(itemManager, this, inventoryTagsConfig, false);
